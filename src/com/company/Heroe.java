@@ -1,4 +1,13 @@
 package com.company;
 
-public class Heroe {
+public abstract class Heroe {
+   private Integer experienciaHeroe;
+
+   public Heroe(Integer experienciaHeroe) {
+      this.experienciaHeroe = experienciaHeroe;
+   }
+
+   public Integer getExperienciaHeroe() {
+      return experienciaHeroe;
+   }
 }
