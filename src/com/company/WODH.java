@@ -8,7 +8,7 @@ public class WODH {
     List<Luchador> luchadores = new ArrayList<>();
     List<Criatura> criaturas = new ArrayList<>();
 
-    public WODH(List<Heroe> heroes, List<Luchador> luchadores, List<Criatura> criaturas) {
+    public WODH() {
         this.heroes = new ArrayList<>();
         this.luchadores = new ArrayList<>();
         this.criaturas = new ArrayList<>();
@@ -26,7 +26,7 @@ public class WODH {
         criaturas.add(criatura);
     }
 
-    public void ejecutarJuego() {
+    public void realizarLuchas() {
 
         System.out.println("QUE COMIENZE EL JUEGO!!!");
         for (Luchador luchador: luchadores) {
