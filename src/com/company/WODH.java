@@ -28,12 +28,12 @@ public class WODH {
 
     public void realizarLuchas() {
 
-        System.out.println("QUE COMIENZE EL JUEGO!!!");
+        System.out.println("QUE COMIENZEN LAS RONDAS DE PELEA!!");
         for (Luchador luchador: luchadores) {
             luchador.luchar();
 
         }
 
-        System.out.println("EL JUEGO HA TERMINADO!!!");
+        System.out.println("LAS RONDAS DE PELEA HAN TERMINADO!!!");
     }
 }

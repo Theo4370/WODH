@@ -7,7 +7,7 @@ public class Dragon extends Criatura {
 
 
     public void volarYEscupirFuego() {
-        //todo aca que onda bro
+        System.out.printf("Soy un dragon volando y escupiendo fuego!!!!");
 
     }
 }
