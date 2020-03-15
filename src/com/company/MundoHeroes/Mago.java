@@ -7,13 +7,18 @@ public class Mago extends Heroe implements Luchador {
         super(experienciaHeroe, criatura);
     }
 
+    public Mago(Integer experienciaHeroe) {
+        super(experienciaHeroe);
+    }
 
     public void resucitarGuerrero(Guerrero guerrero) {
-        Integer vidaResucitada;
-        System.out.println("Voy a revivir a este guerrero con vida "+guerrero.getNivelDeVida());
-        vidaResucitada = guerrero.setNivelDeVida(20);
-        System.out.println("Guerrero resucitado, su nueva vida es de "+vidaResucitada);
+        if (guerrero.getExperienciaHeroe() <= getExperienciaHeroe()) {
+            System.out.println("Voy a revivir a este guerrero con vida " + guerrero.getNivelDeVida());
+            System.out.println("Guerrero resucitado, su nueva vida es de " + guerrero.setNivelDeVida(20));
 
+        } else {
+            System.out.println("Mi experiencia es menor, no puedo resucitar");
+        }
     }
 
     @Override
