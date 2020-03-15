@@ -1,4 +1,4 @@
-package com.company;
+package com.company.MundoCriaturas;
 
 public abstract class Criatura {
    private Integer nivelDeAtaque;

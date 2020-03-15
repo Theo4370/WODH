@@ -1,4 +1,6 @@
-package com.company;
+package com.company.MundoHeroes;
+
+import com.company.MundoCriaturas.Criatura;
 
 public abstract class Heroe {
    private Integer experienciaHeroe;

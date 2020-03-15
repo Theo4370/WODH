@@ -1,4 +1,6 @@
-package com.company;
+package com.company.MundoHeroes;
+
+import com.company.MundoCriaturas.Criatura;
 
 public class Mago extends Heroe implements Luchador {
     public Mago(Integer experienciaHeroe, Criatura criatura) {

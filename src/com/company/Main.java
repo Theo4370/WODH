@@ -1,5 +1,10 @@
 package com.company;
 
+import com.company.MundoCriaturas.CriaturaRandom;
+import com.company.MundoCriaturas.Dragon;
+import com.company.MundoHeroes.Guerrero;
+import com.company.MundoHeroes.Mago;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -21,7 +26,7 @@ public class Main {
         otroMago.resucitarGuerrero(unGuerrero);
         unGuerrero.luchar();
         mataDragones.luchar();
-
+        unDragon.volarYEscupirFuego();
 
     }
 }

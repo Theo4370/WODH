@@ -1,5 +1,9 @@
 package com.company;
 
+import com.company.MundoCriaturas.Criatura;
+import com.company.MundoHeroes.Heroe;
+import com.company.MundoHeroes.Luchador;
+
 import java.util.ArrayList;
 import java.util.List;
 

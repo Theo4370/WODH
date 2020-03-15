@@ -1,4 +1,4 @@
-package com.company;
+package com.company.MundoCriaturas;
 
 public class Dragon extends Criatura {
     public Dragon(Integer nivelDeAtaque) {
